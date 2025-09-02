@@ -19,7 +19,7 @@ nltk.download('wordnet')
 stop_words = set(stopwords.words("english"))
 tokenizer = RegexpTokenizer(r"\w+")
 lmtzr = WordNetLemmatizer()
-client_async = AsyncOpenAI(api_key="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")
+client_async = AsyncOpenAI(api_key="key")
 
 
 def get_nouns(text):
