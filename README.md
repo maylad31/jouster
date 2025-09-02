@@ -14,6 +14,7 @@
 ## Design and tool choices
 * Used pydantic and openai to get structured outputs: easy way to make sure responses follow the schema
 * Fastapi for api: easy to set up and async is good for api or i/o or lightweight tasks
+* Could have organized it a bit better
 
 
 ## Demo(with and without title in the text)
