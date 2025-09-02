@@ -16,7 +16,7 @@
 * Fastapi for api: easy to set up and async is good for api or i/o or lightweight tasks
 
 
-## Demo
+## Demo(with and without title in the text)
 
 ![With title input](1.png)
 ![With title response](2.png)
