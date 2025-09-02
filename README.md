@@ -14,7 +14,7 @@
 ## Design and tool choices
 * Used pydantic and openai to get structured outputs: easy way to make sure responses follow the schema
 * Fastapi for api: easy to set up and async is good for api or i/o or lightweight tasks
-* Could have organized it a bit better
+* Could have organized it a bit better, I was already close to 2 hours after readme, else I would have like to use supabase and may be implement fts for keyword based search.
 
 
 ## Demo(with and without title in the text)
