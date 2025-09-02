@@ -39,7 +39,7 @@ class TextInput(BaseModel):
 class OuputSchema(BaseModel):
     title: Optional[str]=Field(None,description="Title if present in the text")
     topics: List[str]=Field(...,description="3 key topics in the text")
-    sentiment: str=Field(...,description="Title if present in the text")
+    sentiment: str=Field(...,description="Sentiment")
     summary : str=Field(...,description="Summary of the text")
 
 app = FastAPI()
